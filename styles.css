@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.image_icon{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.profile_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid  rgb(208, 193, 193);
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 450px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contents .name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 0px;
+    
+}
+.contents .job{
+margin-top: 5px;
+font-size: 15px;
+}
+
+.icons i{
+    background-color: white;
+    margin: 0 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icons i:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.buttons{
+    margin: 20px 0;
+    
+}
+.buttons a{
+    
+    margin-left: 30px;
+    border: 2px solid ;
+    text-decoration: none;
+    background-color: rgb(74, 7, 229);
+    color: white;
+    padding: 5px;
+    border-radius: 0.7rem;
+    cursor:pointer;
+    
+}
+.buttons :first-child{
+    margin-left: 0;
+}
+.status{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    
+    margin-bottom: 10px;
+    
+}
+.status i{
+    font-size: 20px;
+    margin: 0 0px;
+    padding:0 10px;
+    border-right: 1px solid;
+
+}
+.status i:first-child{
+margin-left:10px;
+}
+.status i:last-child{
+    border: none;
+}
+
+.status i:hover{
+    border-color:black;
+color: red;
+
+}
